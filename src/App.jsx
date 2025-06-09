@@ -2,7 +2,7 @@ import { Routes, Route, NavLink } from "react-router-dom";
 import { useState } from "react";
 import "./App.css";
 import styles from "./App.module.css";
-import Home from "./pages/home/Home";
+import Home from "./pages/Home/Home";
 import Catalog from "./pages/Catalog/Catalog";
 import NotFound from "./pages/NotFound/NotFound";
 
