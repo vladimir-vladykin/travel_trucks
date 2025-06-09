@@ -30,10 +30,61 @@ button {
 /* #endregion */
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
   /* variables */
-  --color-input: #f7f7f7;
+  --color-white: #ffffff;
+  --color-text: #475467;
+  --color-inputs: #f7f7f7;
+  --color-gray-light: #dadde1;
+  --color-button: #e44848;
+  --color-button-hover: #d84343;
+  --color-main: #101828;
+
+  --font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-white);
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-text);
+}
+
+h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 67%;
+  color: var(--color-inputs);
+}
+
+h2 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  color: var(--color-main);
+}
+
+button {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+}
+
+.red-button {
+  border-radius: 200px;
+  padding: 16px 0px;
+  width: 166px;
+  height: 56px;
+  background: var(--color-button);
+  color: var(--color-white);
+}
+
+.red-button:hover {
+  background: var(--color-button-hover);
 }
